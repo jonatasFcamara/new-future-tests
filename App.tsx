@@ -1,6 +1,7 @@
+import React from 'react';
 import { useFonts } from 'expo-font';
 import { StatusBar } from 'expo-status-bar';
-import { LoginScreen } from './src/screens';
+import GraphLineTest from './src/screens/GraphLineTest/GraphLineTest';
 
 import 'intl';
 import 'intl/locale-data/jsonp/pt-BR';
@@ -19,7 +20,7 @@ export default function App() {
   return (
     <>
       <StatusBar style="dark" />
-      <LoginScreen />
+      <GraphLineTest />
     </>
   );
 }
